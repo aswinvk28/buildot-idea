@@ -1,0 +1,103 @@
+.chromestyle{width:100%; float:left;}
+
+.chromestyle:after{ /*Add margin between menu and rest of content in Firefox*/
+content: "."; 
+display: block; 
+height: 0; 
+clear: both; 
+visibility: hidden;
+}
+
+.chromestyle ul{
+/*border: 1px solid #BBB;*/
+width: 100%;
+/*background: url(chromebg.gif) center center repeat-x; THEME CHANGE HERE*/
+float:left; padding:8px;
+margin: 0;
+text-align: left; /*set value to "left", "center", or "right"*/
+}
+
+.chromestyle ul li{
+display: inline; margin:0px; padding:0px;
+}
+
+.chromestyle ul li a{
+color: #005aae;
+margin: 0;padding:9px;
+text-decoration: none;
+border-right: 1px solid #DADADA;
+}
+.chromestyle_no ul li a{
+color: #005aae;
+margin: 0;padding:9px;
+text-decoration: none;
+border-left: 1px solid #DADADA;
+}
+
+.chromestyle ul li a:hover, .chromestyle ul li a.selected{ /*script dynamically adds a class of "selected" to the current active menu item*/
+ /*THEME CHANGE HERE*/color: #464646;
+}
+
+/* ######### Style for Drop Down Menu ######### */
+
+.dropmenudiv{
+position:absolute;
+top: 0;
+border: 1px solid #BBB; /*THEME CHANGE HERE*/
+border-bottom-width: 0;
+line-height:18px;
+z-index:100;
+background-color: white; width:170px;
+visibility: hidden;
+}
+
+
+.dropmenudiv a{
+width: auto;
+display: block;
+border-bottom: 1px solid #BBB; /*THEME CHANGE HERE*/
+padding:4px 15px 4px 15px; text-decoration:none;
+color:#005aae;
+text-align:left;
+}
+
+* html .dropmenudiv a{ /*IE only hack*/
+width: 100%;
+}
+
+.dropmenudiv a:hover{ /*THEME CHANGE HERE*/
+background-color: #F0F0F0; color:#464646;
+}
+
+
+
+
+
+
+.dropmenudiv_narrow{
+position:absolute;
+top: 0;
+border: 1px solid #BBB; /*THEME CHANGE HERE*/
+border-bottom-width: 0;
+line-height:18px;
+z-index:100;
+background-color: white; width:135px;
+visibility: hidden;
+}
+
+
+.dropmenudiv_narrow a{
+width: auto;
+display: block;
+border-bottom: 1px solid #BBB; /*THEME CHANGE HERE*/
+padding:4px 15px 4px 15px; text-decoration:none;
+color:#005aae;
+}
+
+* html .dropmenudiv_narrow a{ /*IE only hack*/
+width: 100%;
+}
+
+.dropmenudiv_narrow a:hover{ /*THEME CHANGE HERE*/
+background-color: #F0F0F0; color:#464646;
+}

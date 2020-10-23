@@ -1,0 +1,1630 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#464646;
+	font-size:13px;
+	line-height:18px;
+}
+.bluefont {
+	color:#005aae;
+	font-weight:normal;
+	font-size:14px;
+	text-transform:uppercase;
+}
+.bluefont-heading {
+	color:#005aae;
+	font-weight:normal;
+	font-size:18px;
+	text-transform:uppercase;
+}
+.blackfont {
+	color:#464646;
+	font-weight:normal;
+	font-size:13px;
+	text-transform:uppercase;
+}
+.greyfont {
+	color:#898989;
+	font-weight:normal;
+	font-size:10px;
+	text-transform:uppercase;
+}
+.smalltxt {
+	color:#464646;
+	font-weight:normal;
+	font-size:11px;
+	padding-bottom:5px;
+	float:left;
+	width:100%;
+}
+.blue-gradient-bg {
+	background-color:#FFF;
+	background-attachment: scroll;
+	background-image: url(../images/blue-gradient.jpg);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+}
+.greybox {
+	background-color:#F3F3F3;
+	border:1px solid #EBEBEB;
+	padding:10px 15px 10px 15px;
+}
+a {
+	color:#005aae;
+	text-decoration:none;
+}
+a:hover {
+	color:#464646;
+	text-decoration:none;
+}
+#wrap {
+	float:left;
+	width:100%;
+	background-attachment: scroll;
+	background-image: url(../images/BG01.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	padding:60px 0 110px 0;
+}
+.wrapper {
+	width:980px;
+	margin:0 auto;
+}
+.home-txt-container {
+	padding:15px;
+	margin:0 auto;
+}
+.signin-box {
+	width:240px;
+	border-left:1px solid #CCC;
+	float:left;
+	padding:50px 0 0 20px;
+}
+.main-txt-box {
+	width:687px;
+	float:left;
+}
+.txt-box {
+	width:208px;
+	margin:50px 21px 50px 0;
+	float:left;
+	padding:0px;
+}
+.txt-box p {
+	border-top:1px solid #CCC;
+	padding-top:10px;
+}
+.login {
+	margin:0px;
+	float:left;
+	width:240px;
+	line-height:18px;
+	font-size:13px;
+	font-weight:normal;
+}
+.login ul {
+	float:left;
+	width:240px;
+	padding:0px;
+	margin:0px;
+}
+.login li {
+	float:left;
+	padding:0px;
+	margin:0px;
+	list-style:none;
+	line-height:18px;
+}
+.login li .block1 {
+	width:240px;
+	float:left;
+	text-align:left;
+	padding:3px 0px 3px 0px;
+}
+.login li .block2 {
+	width:30px;
+	float:left;
+	text-align:left;
+	padding:6px 0px 6px 0px;
+}
+.login li .block3 {
+	width:210px;
+	float:left;
+	text-align:left;
+	padding:6px 0px 6px 0px;
+}
+.login li .block4 {
+	width:11px;
+	float:left;
+	text-align:left;
+	padding:9px 0px 8px 0px;
+	border-bottom:1px solid #CCC;
+}
+.login li .block5 {
+	width:199px;
+	float:left;
+	text-align:left;
+	padding:3px 0px 3px 0px;
+	border-bottom:1px solid #CCC;
+}
+.joinnow {
+	float:left;
+	width:0px;
+	padding:0px 0 0 630px;
+}
+.login input[type="text"] { /*width of text boxes. IE6 does not understand this attribute*/
+	width: 219px;
+	height:28px;
+	padding:0px 10px 0px 10px;
+	margin-top:10px;
+	border:1px solid #CCCCCC;
+}
+.login input[type="checkbox"] { /*width of text boxes. IE6 does not understand this attribute*/
+	width:18px;
+	height:18px;
+	border:1px solid #CCC;
+	padding:0px;
+	margin:0px;
+}
+.login-reg {
+	margin:0px;
+	float:left;
+	width:210px;
+	line-height:18px;
+	font-size:13px;
+	font-weight:normal;
+	margin-top: 20px;
+}
+.login-reg ul {
+	float:left;
+	width:210px;
+	padding:0px;
+	margin:0px;
+}
+.login-reg ol {
+	float:left;
+	padding:0px;
+	margin:0px;
+	list-style:none;
+	line-height:18px;
+	width:210px;
+}
+.login-reg ol .block1 {
+	width:210px;
+	float:left;
+	text-align:left;
+	padding:3px 0px 3px 0px;
+}
+.login-reg ol .block2 {
+	width:30px;
+	float:left;
+	text-align:left;
+	padding:6px 0px 6px 0px;
+}
+.login-reg ol .block3 {
+	width:180px;
+	float:left;
+	text-align:left;
+	padding:6px 0px 6px 0px;
+}
+.login-reg ol .block4 {
+	width:11px;
+	float:left;
+	text-align:left;
+	padding:0px 0px 0sspx 0px;
+	border-bottom:1px solid #CCC;
+}
+.login-reg ol .block4 img { border:none !important; }
+.login-reg ol .block5 {
+	width:180px;
+	float:left;
+	text-align:left;
+	padding:3px 0px 3px 0px;
+	border-bottom:1px solid #CCC;
+}
+.login-reg input[type="text"] { /*width of text boxes. IE6 does not understand this attribute*/
+	width: 188px;
+	height:28px;
+	padding:0px 10px 0px 10px;
+	margin-top:10px;
+	border:1px solid #CCCCCC;
+}
+.login-reg input[type="checkbox"] { /*width of text boxes. IE6 does not understand this attribute*/
+	width:18px;
+	height:18px;
+	border:1px solid #CCC;
+	padding:0px;
+	margin:0px;
+}
+.searchsec {
+	float:left;
+	width:208px;
+	height:26px;
+	line-height:26px;
+	border:1px solid #ebebeb;
+	background-color:#F3F3F3;
+	color:#464646;
+	text-align:left;
+	margin-top:30px;
+}
+.searchsec .searchbox {
+	border:none;
+	width:179px;
+	height:24px;
+	float:left;
+	margin:0px 5px 0;
+	background:none;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#464646;
+	font-size:13px;
+}
+.searchsec .searchbtn {
+	margin:5px 0 0;
+	float:left;
+	background:url(../images/Search.png) no-repeat;
+	width:16px;
+	height:16px;
+	border:none;
+}
+.search-right {
+	float:left;
+	width:258px;
+	height:26px;
+	line-height:26px;
+	border:1px solid #CCC;
+	color:#464646;
+	text-align:left;
+	margin-left:10px;
+}
+.search-right .search-right-box {
+	border:none;
+	width:225px;
+	height:24px;
+	float:left;
+	margin:0px 5px 0;
+	background:none;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#464646;
+	font-size:13px;
+}
+.search-right .search-rightbtn {
+	margin:5px 0 0;
+	float:left;
+	background:url(../images/Search.png) no-repeat;
+	width:16px;
+	height:16px;
+	border:none;
+}
+/*** Main Layout End ***/
+	
+.header {
+	float:left;
+	width:100%;
+	height:68px;
+	padding-bottom:10px;
+}
+.logo {
+	float:left;
+}
+.search {
+	float:left;
+	width:391px;
+	padding:40px 0 0 98px;
+}
+.search-left {
+	float:left;
+	width:121px;
+}
+.menu {
+	width:978px;
+	float:left;
+	border:1px solid #CCCCCC;
+	background-color:#FFF;
+	margin-bottom:30px;
+	background-attachment: scroll;
+	background-image: url(../images/menu-bg.jpg);
+	background-repeat: repeat-x;
+	background-position: left center;
+}
+.class {
+	width:700px;
+	float:left;
+}
+.profile {
+	width:278px;
+	float:left;
+}
+.txtcontainer-inside {
+	float:left;
+	width:978px;
+}
+.txtcontainer-left {
+	width:209px;
+	float:left;
+	height:auto !important;
+	padding:15px;
+}
+.txtcontainer-left-div {
+	width:209px;
+	height:auto;
+	float:left;
+}
+.txtcontainer-left-div img {
+	padding:6px;
+	border:1px solid #CCC;
+	background-color:#FFF;
+	float:left;
+	margin-bottom:10px;
+}
+.txtcontainer-left-div-ind {
+	width:209px;
+	height:auto;
+	float:left;
+	text-align:center;
+}
+.txtcontainer-left-div-ind img {
+	padding:6px;
+	border:1px solid #CCC;
+	background-color:#FFF;
+	margin-bottom:10px;
+}
+.txtcontainer-left-div .space { margin-right:9px; }
+.txtcontainer-left-div h3 {
+	color:#464646;
+	font-weight:normal;
+	font-size:13px;
+	text-transform:uppercase;
+	background-attachment: scroll;
+	background-image: url(../images/heading-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: left center;
+	height:19px;
+	padding:7px 0 5px 15px;
+	float:left;
+	width:194px;
+	margin-top:30px;
+}
+.txtcontainer-left-div h3 span { color:#005aae; }
+.reply-box {
+	width:535px;
+	;
+	background-color:#F3F3F3;
+	border:1px solid #EBEBEB;
+	display:none;
+	float:left;
+	margin-left:140px;
+	padding:0px 15px 10px 15px;
+}
+.txtcontainer-left-div ul {
+	float:left;
+	width:194px;
+	height:auto !important;
+}
+.txtcontainer-left-div li {
+	float:left;
+	width:194px;
+	list-style:none;
+	color:#7d7d7d;
+	padding:1px 0 1px 15px;
+	margin:2px 0 2px 0px;
+	border-bottom:1px solid #CCC;
+}
+.txtcontainer-left-div li a {
+	color:#0072bc;
+	text-decoration:none;
+	background-attachment: scroll;
+	background-image: url(../images/arrow-dir.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left:15px;
+}
+.txtcontainer-left-div li a:hover {
+	color:#464646;
+	text-decoration:none;
+}
+.txtcontainer-left-div li .act {
+	color:#464646;
+	text-decoration:none;
+}
+.txtcontainer-left-div li span {
+	color:#464646;
+	text-decoration:none;
+	float:right;
+}
+.txtcontainer-right {
+	width:708px;
+	float:left;
+	height:auto !important;
+	padding:15px;
+	border-left:1px solid #CCCCCC;
+}
+.txtcontainer-right-div {
+	width:678px;
+	height:auto;
+	float:left;
+	padding:15px;
+	border-bottom:1px solid #EBEBEB;
+}
+.greybg { background-color:#ebebeb; }
+.txtcontainer-right-div .fieldbox {
+	border:1px solid #EBEBEB;
+	background-color:#FFF;
+	width:658px;
+	height:80px;
+	padding:5px 10px;
+	color:#464646;
+}
+.txtcontainer-right-div img { margin-right:10px; }
+.txtcontainer-right h1 {
+	color:#464646;
+	font-weight:normal;
+	font-size:13px;
+	text-transform:uppercase;
+	background-attachment: scroll;
+	background-image: url(../images/header-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: left center;
+	height:19px;
+	padding:7px 0 5px 15px;
+	float:left;
+	width:688px;
+}
+.txtcontainer-right h2 {
+	color:#464646;
+	font-weight:normal;
+	font-size:13px;
+	text-transform:uppercase;
+	background-attachment: scroll;
+	background-image: url(../images/header-bg-1.jpg);
+	background-repeat: no-repeat;
+	background-position: left center;
+	height:19px;
+	padding:7px 0 5px 15px;
+	float:left;
+	width:688px;
+}
+.txtcontainer-right h2 a {
+	text-decoration:none;
+	border:1px #CCC solid;
+	padding:3px 10px 3px 10px;
+	color:#464646;
+	background-attachment: scroll;
+	background-image: url(../images/top-menu-bg.jpg);
+	background-repeat: repeat-x;
+	background-position: left center;
+	background-color:#f3f3f3;
+}
+.txtcontainer-right h2 a:hover {
+	color:#005aae;
+	text-decoration:none;
+}
+.txtcontainer-right h2 span {
+	float:right;
+	text-transform:lowercase;
+}
+/* Published Tender List */	
+.txtcontainer-right h1 span {
+	color:#005aae;
+	float:right;
+	text-transform:lowercase;
+}
+.txtcontainer-right .published-tender-list-search {
+	width:708px;
+	float:left;
+	height:auto;
+	margin:15px 0 0px 0;
+	padding-bottom:15px;
+	border-bottom:1px solid #CCC;
+}
+.txtcontainer-right .published-tender-list-search input[type="text"] { /*width of text boxes. IE6 does not understand this attribute*/
+	width: 222px;
+	height:28px;
+	border:1px solid #CCCCCC;
+}
+.txtcontainer-right .published-tender-list-search .selectbox {
+	background-color:#FFF;
+	width:212px;
+	height:28px;
+	line-height:25px;
+	padding:0px 0px 0 8px;
+	font-size:13px;
+	border:1px solid #CCC;
+	color:#464646;
+}
+.txtcontainer-right .published-tender-list-search ul {
+	float:left;
+	width:568px;
+	padding-left:140px;
+	margin:0px;
+}
+.txtcontainer-right .published-tender-list-search li {
+	float:left;
+	padding:0px;
+	margin:0px;
+	list-style:none;
+	line-height:18px;
+}
+.txtcontainer-right .published-tender-list-search li .block1 {
+	width:50px;
+	float:left;
+	text-align:left;
+	padding:4px 12px 0px 0px;
+}
+.txtcontainer-right .published-tender-list-search li .block2 {
+	width:222px;
+	float:left;
+	text-align:left;
+	padding:0px 0px 0px 0px;
+}
+.txtcontainer-right .published-tender-list {
+	width:708px;
+	float:left;
+	height:auto;
+	margin-top:15px;
+}
+.txtcontainer-right .published-tender-list-images {
+	width:130px;
+	float:left;
+	padding-right:10px;
+}
+.txtcontainer-right .published-tender-list-images img {
+	padding:3px;
+	border:1px solid #CCC;
+	background-color:#FFF;
+	float:left;
+	margin-right:5px;
+}
+.txtcontainer-right .published-tender-list-details {
+	width:566px;
+	float:left;
+	background-color:#f3f3f3;
+	border:1px solid #EBEBEB;
+	background-attachment: scroll;
+	background-image: url(../images/lines.png);
+	background-repeat: repeat-y;
+	background-position: center top;
+}
+.txtcontainer-right .published-tender-list-name {
+	width:176px;
+	float:left;
+	padding:10px 15px 10px 15px;
+}
+.txtcontainer-right .published-tender-list-date {
+	width:276px;
+	float:left;
+	padding:10px 15px 10px 15px;
+}
+.txtcontainer-right .published-tender-list-location {
+	width:24px;
+	float:left;
+	padding:10px 15px 10px 15px;
+}
+/* Published Tender List */	
+
+/* memebr-dtails */
+
+.member-details-div {
+	width:678px;
+	height:auto;
+	float:left;
+	padding:15px;
+	border-bottom:1px solid #EBEBEB;
+	margin-top:15px;
+}
+.member-details-div-left {
+	width:130px;
+	margin-right:10px;
+	float:left;
+}
+.member-details-div-left img {
+	padding:3px;
+	border:1px solid #CCC;
+	background-color:#FFF;
+	float:left;
+	margin-right:5px;
+}
+.member-details-div-right {
+	width:538px;
+	float:left;
+}
+.member-details-div-txt {
+	width:538px;
+	padding:10px 0 0 0;
+	border-top:1px solid #EBEBEB;
+	margin:0px 0 6px 0;
+	font-size:12px;
+	float:left;
+}
+.member-details-div-links {
+	width:678px;
+	border-top:1px solid #FFF;
+	float:left;
+	padding:10px 0 0px 0;
+	text-align:right;
+}
+/* member-details */
+
+/* group-dtails */
+
+.group-details-div {
+	width:708px;
+	height:auto;
+	float:left;
+	margin-top:15px;
+}
+.group-details-div-post {
+	width:678px;
+	height:auto;
+	float:left;
+	margin-top:15px;
+	padding:10px 15px 10px 15px;
+	background-color:#F3F3F3;
+	border:1px solid #EBEBEB;
+}
+.group-details-div-post img { margin-right:8px; }
+.group-details-div-left {
+	width:60px;
+	margin-right:15px;
+	float:left;
+}
+.group-details-div-left img {
+	padding:3px;
+	border:1px solid #CCC;
+	background-color:#FFF;
+	float:left;
+}
+.group-details-div-right {
+	width:633px;
+	float:left;
+}
+.group-details-div-right img {
+	padding:3px;
+	border:1px solid #CCC;
+	background-color:#FFF;
+	margin-right:5px;
+}
+.group-details-div-txt {
+	width:603px;
+	padding:10px 15px 10px 15px;
+	border-top:1px solid #EBEBEB;
+	background-color:#f3f3f3;
+	float:left;
+	margin-top:5px;
+	font-size:12px;
+	line-height:20px;
+}
+.view-group-details-div {
+	width:603px;
+	padding:10px 15px 10px 15px;
+	border-top:1px solid #EBEBEB;
+	background-color:#f3f3f3;
+	float:left;
+	font-size:12px;
+	line-height:20px;
+}
+.group-details-div-links {
+	width:100%;
+	border-top:1px solid #CCC;
+	float:left;
+	padding:15px 0 5px 0;
+	margin-top:10px;
+}
+.group-details-div-links a {
+	text-decoration:none;
+	border:1px #EBEBEB solid;
+	padding:4px 18px 2px 10px;
+	color:#464646;
+	background-attachment: scroll;
+	background-image: url(../images/links-arrow.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-color:#f3f3f3;
+}
+.group-details-div-links a:hover {
+	color:#005aae;
+	text-decoration:none;
+}
+.group-details-div ul {
+	float:left;
+	width:100%;
+}
+.group-details-div li {
+	float:left;
+	width:130px;
+	list-style:none;
+	padding:0px;
+	margin:15px 14px 0 0;
+	line-height:18px;
+}
+.group-details-div li.last {
+	float:left;
+	width:130px;
+	list-style:none;
+	padding:0px;
+	margin:15px 0px 0 0;
+	line-height:18px;
+}
+.group-details-div li img {
+	float:left;
+	padding:3px;
+	border:1px solid #EBEBEB;
+	margin:0px 5px 5px 0;
+}
+.group-details-div li p { text-align:center; }
+.group-details-div-comment-images {
+	width:130px;
+	float:left;
+	padding-right:10px;
+}
+.group-details-div-comment-images img {
+	padding:3px;
+	border:1px solid #CCC;
+	background-color:#FFF;
+	float:left;
+	margin-right:5px;
+}
+.group-details-div-comment-right {
+	width:566px;
+	float:left;
+}
+.group-details-div-comment-details {
+	width:536px;
+	float:left;
+	background-color:#f3f3f3;
+	border:1px solid #EBEBEB;
+	padding:10px 15px 10px 15px;
+	margin-bottom:3px;
+}
+/* group-details */
+
+/* received-quotation */	
+.txtcontainer-right .received-quotation {
+	width:708px;
+	float:left;
+	height:auto;
+	margin-top:15px;
+}
+.txtcontainer-right .received-quotation-images {
+	width:130px;
+	float:left;
+	padding-right:10px;
+}
+.txtcontainer-right .received-quotation-images img {
+	padding:3px;
+	border:1px solid #CCC;
+	background-color:#FFF;
+	float:left;
+	margin-right:5px;
+}
+.txtcontainer-right .received-quotation-details {
+	width:536px;
+	float:left;
+	background-color:#f3f3f3;
+	border:1px solid #EBEBEB;
+	padding:10px 15px 10px 15px;
+}
+.txtcontainer-right .received-quotation-details p {
+	border-top:1px solid #CCC;
+	padding:5px 0 5px 0;
+	margin-top:15px;
+}
+.txtcontainer-right .received-quotation-details span { color:#CC0000; }
+.close {
+	z-index:100;
+	float:right;
+}
+/* received-quotation */
+
+/* job-openings */	
+.txtcontainer-right .job-opening {
+	width:708px;
+	float:left;
+	height:auto;
+	margin-top:15px;
+}
+.txtcontainer-right .job-opening-details {
+	width:678px;
+	float:left;
+	background-color:#f3f3f3;
+	border:1px solid #EBEBEB;
+	padding:10px 15px 10px 15px;
+}
+/* job-openings */	
+
+/* Invite-Quotation */
+.txtcontainer-right .invite-quotation {
+	width:708px;
+	float:left;
+	height:auto;
+	margin-top:15px;
+}
+.cssform p {
+	width: 220px;
+	clear: left;
+	margin: 0;
+	padding: 5px 0 8px 0;
+	padding-left: 170px; /*width of left column containing the label elements*/
+}
+.cssform label {
+	float: left;
+	padding:10px 0 0 0;
+	margin-left: -170px; /*width of left column*/
+	width: 170px; /*width of labels. Should be smaller than left column (155px) to create some right margin*/
+}
+.cssform input[type="text"] { /*width of text boxes. IE6 does not understand this attribute*/
+	width: 222px;
+	height:28px;
+	border:1px solid #CCCCCC;
+}
+.cssform input[type="file"] { /*width of text boxes. IE6 does not understand this attribute*/
+	width: 222px;
+	height:28px;
+	border:1px solid #CCCCCC;
+	background-color:#F3F3F3;
+	padding:7px 20px 4px 7px;
+}
+.cssform textarea {
+	width: 300px;
+	height: 80px;
+	padding:10px;
+	border:1px solid #EBEBEB;
+}
+.cssform span {
+	color:#707070;
+	font-size:11px;
+}
+.cssform .selectbox {
+	background-color:#FFF;
+	width:320px;
+	height:28px;
+	line-height:25px;
+	padding:0px 0px 0 10px;
+	font-size:13px;
+	border:1px solid #CCC;
+	color:#464646;
+}
+.button {
+	margin:0px;
+	background-color:#05496c;
+	font-size:13px;
+	color:#FFF;
+	border:none;
+	padding:5px 15px 5px 15px;
+}
+/* Invite-Quotation */
+
+
+/* view-companies */	
+.txtcontainer-right .view-companies {
+	width:708px;
+	float:left;
+	height:auto;
+	margin-top:15px;
+}
+.txtcontainer-right .view-companies-images {
+	width:60px;
+	float:left;
+	padding-right:10px;
+}
+.txtcontainer-right .view-companies-images img {
+	padding:3px;
+	border:1px solid #CCC;
+	background-color:#FFF;
+	float:left;
+	margin-right:5px;
+}
+.txtcontainer-right .view-companies-details {
+	width:606px;
+	float:left;
+	background-color:#f3f3f3;
+	border:1px solid #EBEBEB;
+	padding:10px 15px 10px 15px;
+}
+.txtcontainer-right .view-companies-details span { color:#CC0000; }
+/* view-companies */
+
+/* profile */	
+.txtcontainer-right .view-profile {
+	width:708px;
+	float:left;
+	height:auto;
+	margin-top:15px;
+}
+.txtcontainer-right .view-profile-images {
+	width:60px;
+	float:left;
+	padding-right:15px;
+}
+.txtcontainer-right .view-profile-images img {
+	padding:4px;
+	border:1px solid #CCC;
+	background-color:#FFF;
+	float:left;
+}
+.txtcontainer-right .view-profile-details {
+	width:603px;
+	float:left;
+	padding:0px 15px 10px 15px;
+}
+.txtcontainer-right .view-profile-details ul {
+	float:left;
+	width:603px;
+	padding:0px;
+	margin:0px;
+}
+.txtcontainer-right .view-profile-details li {
+	float:left;
+	padding:0px;
+	margin:0px;
+	list-style:none;
+	line-height:18px;
+}
+.txtcontainer-right .view-profile-details li .block1 {
+	width:603px;
+	float:left;
+	text-align:left;
+	padding:3px 0px 3px 0px;
+	font-size:15px;
+}
+.txtcontainer-right .view-profile-details li .block2 {
+	width:80px;
+	float:left;
+	text-align:left;
+	padding:6px 0px 6px 0px;
+}
+.txtcontainer-right .view-profile-details li .block3 {
+	width:523px;
+	float:left;
+	text-align:left;
+	padding:6px 0px 6px 0px;
+}
+.txtcontainer-right .view-profile-details li .block4 {
+	width:606px;
+	float:left;
+	text-align:left;
+	padding:0px 0px 3px 0px;
+}
+/* profile */
+
+/* Registration */
+.registration {
+	width:708px;
+	float:left;
+	height:auto;
+	margin-top:15px;
+}
+.registration ul {
+	float:left;
+	width:708px;
+	padding:0px;
+	margin:0px;
+}
+.registration li {
+	float:left;
+	padding:0px;
+	margin:0px;
+	list-style:none;
+	line-height:18px;
+}
+.registration li .block1 {
+	width:220px;
+	float:left;
+	text-align:left;
+	padding:3px 24px 3px 0px;
+}
+.registration li .block2 {
+	width:220px;
+	float:left;
+	text-align:left;
+	padding:3px 0px 3px 0px;
+}
+.registration li .block3 {
+	width:464px;
+	float:left;
+	text-align:left;
+	padding:3px 24px 3px 0px;
+}
+.registration li .block4 {
+	width:708px;
+	float:left;
+	text-align:left;
+	padding:9px 0px 8px 0px;
+	border-bottom:1px solid #CCC;
+	border-top:1px solid #CCC;
+}
+.registration li .block5 {
+	width:199px;
+	float:left;
+	text-align:left;
+	padding:3px 0px 3px 0px;
+	border-bottom:1px solid #CCC;
+}
+.registration input[type="text"] { /*width of text boxes. IE6 does not understand this attribute*/
+	width: 198px;
+	height:28px;
+	padding:0px 10px 0px 10px;
+	margin-top:10px;
+	border-left:1px solid #CCCCCC;
+	border-right:1px solid #CC0000;
+	border-top:1px solid #CCCCCC;
+	border-bottom:1px solid #CCCCCC;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#464646;
+	font-size:13px;
+}
+.registration input[type="password"] { /*width of text boxes. IE6 does not understand this attribute*/
+	width: 198px;
+	height:28px;
+	padding:0px 10px 0px 10px;
+	margin-top:10px;
+	border-left:1px solid #CCCCCC;
+	border-right:1px solid #CC0000;
+	border-top:1px solid #CCCCCC;
+	border-bottom:1px solid #CCCCCC;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#464646;
+	font-size:13px;
+}
+.registration select { /*width of text boxes. IE6 does not understand this attribute*/
+	width: 220px;
+	padding:2px 0px 2px 10px;
+	height: 30px;
+	margin-top:10px;
+	border-left:1px solid #CCCCCC;
+	border-top:1px solid #CCCCCC;
+	border-bottom:1px solid #CCCCCC;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#464646;
+	font-size:13px;
+}
+
+.registration li .selectbox {
+	background-color:#FFF;
+	width:464px;
+	height:28px;
+	line-height:25px;
+	padding:0px 0px 0 10px;
+	font-size:13px;
+	border:1px solid #CCC;
+	;
+	color:#464646;
+	margin-top:10px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#464646;
+	font-size:13px;
+}
+.registration input[type="file"] { /*width of text boxes. IE6 does not understand this attribute*/
+	width: 198px;
+	height:28px;
+	border:1px solid #CCCCCC;
+	background-color:#F3F3F3;
+	padding:7px 13px 4px 7px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#464646;
+	font-size:13px;
+}
+/* Registration */
+
+/* event-detail */	
+.txtcontainer-right .event-detail {
+	width:708px;
+	float:left;
+	height:auto;
+	margin-top:15px;
+}
+.txtcontainer-right .event-detail-left {
+	width:110px;
+	float:left;
+	height:auto;
+	margin-right:15px;
+}
+.txtcontainer-right .event-detail-right {
+	width:583px;
+	float:left;
+	height:auto;
+}
+.txtcontainer-right .event-detail-left img {
+	padding:4px;
+	border:1px solid #CCC;
+	background-color:#FFF;
+	float:left;
+}
+.txtcontainer-right .event-detail-txt {
+	width:551px;
+	float:left;
+	background-color:#f3f3f3;
+	border:1px solid #EBEBEB;
+	padding:10px 15px 10px 15px;
+}
+.txtcontainer-right .event-detail-txt-post {
+	margin-top:15px;
+	border-top:1px solid #CCC;
+	width:551px;
+	height:auto;
+}
+.txtcontainer-right .event-detail-txt-container {
+	width:581px;
+	float:left;
+	margin-top:15px;
+	border-bottom:1px solid #CCC;
+	padding-bottom:15px;
+}
+.txtcontainer-right .event-detail-post-images {
+	width:134px;
+	float:left;
+	margin-right:10px;
+}
+.txtcontainer-right .event-detail-post-images img {
+	padding:4px;
+	border:1px solid #CCC;
+	background-color:#FFF;
+	float:left;
+	margin-right:5px;
+}
+.txtcontainer-right .event-detail-post-txt {
+	width:405px;
+	float:left;
+	background-color:#f3f3f3;
+	border:1px solid #EBEBEB;
+	padding:10px 15px 10px 15px;
+}
+/* event-detail */
+
+
+/* Published Tender List */	
+.txtcontainer-right .project-list {
+	width:708px;
+	float:left;
+	height:auto;
+	margin-top:15px;
+}
+.txtcontainer-right .project-list p { margin-bottom:5px; }
+.txtcontainer-right .project-list-images {
+	width:130px;
+	float:left;
+	padding-right:10px;
+}
+.txtcontainer-right .project-list-images img {
+	padding:3px;
+	border:1px solid #CCC;
+	background-color:#FFF;
+	float:left;
+	margin-right:5px;
+}
+.txtcontainer-right .project-list-details {
+	width:566px;
+	float:left;
+	background-color:#f3f3f3;
+	border:1px solid #EBEBEB;
+	background-attachment: scroll;
+	background-image: url(../images/lines-project-list.png);
+	background-repeat: repeat-y;
+	background-position: center top;
+}
+.txtcontainer-right .project-list-name {
+	width:482px;
+	float:left;
+	padding:10px 15px 10px 15px;
+}
+.txtcontainer-right .project-list-location {
+	width:24px;
+	float:left;
+	padding:10px 15px 10px 15px;
+}
+/* Published Tender List */	
+
+
+.member-detail-div {
+	width:708px;
+	height:auto;
+	float:left;
+	border-bottom:1px solid #EBEBEB;
+	margin-top:15px;
+	padding-bottom:5px;
+}
+.member-img-left {
+	width:140px;
+	float:left;
+}
+.member-img-left img {
+	border:1px solid #EBEBEB;
+	padding:3px;
+	margin-right:8px;
+}
+.member-txt-right {
+	width:566px;
+	float:left;
+}
+.member-txt-right-box {
+	width:536px;
+	padding:10px 15px 10px 15px;
+	background-color:#f3f3f3;
+	border:1px solid #EBEBEB;
+	margin:0px 0 6px 0;
+	font-size:12px;
+	float:left;
+}
+.member-txt-right-box img {
+	border:1px solid #EBEBEB;
+	padding:3px;
+	margin-right:8px;
+	float:left;
+}
+.member-reply-box {
+	width:536px;
+	padding:10px 15px 10px 15px;
+	background-color:#f3f3f3;
+	border:1px solid #EBEBEB;
+	margin:0px 0 6px 0;
+	font-size:12px;
+	float:left;
+}
+.member-reply-box-left {
+	width:116px;
+	float:left;
+}
+.member-reply-box-left img {
+	border:1px solid #EBEBEB;
+	padding:3px;
+	margin-right:8px;
+	float:left;
+}
+.member-reply-box-right {
+	width:390px;
+	float:left;
+}
+.member-reply-box-right img { padding-bottom:8px; }
+.member-reply-box-close {
+	width:16px;
+	padding-left:14px;
+	float:left;
+}
+.commentbox {
+	border:1px solid #EBEBEB;
+	background-color:#FFF;
+	width:95%;
+	height:44px;
+	padding:5px 10px;
+	color:#464646;
+	margin:10px 0 5px 0;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#464646;
+	font-size:13px;
+	line-height:18px;
+}
+/* Company Details */
+
+.company-detail-div {
+	width:708px;
+	height:auto;
+	float:left;
+	margin:15px 0 15px 0;
+}
+.company-img-left {
+	width:110px;
+	float:left;
+	margin-right:15px;
+}
+.company-img-left img {
+	border:1px solid #EBEBEB;
+	padding:4px;
+}
+.company-txt-right {
+	width:583px;
+	float:left;
+	padding-top:50px;
+}
+.company-detail-div-links {
+	width:678px;
+	float:left;
+	padding:4px 15px 4px 15px;
+	background-color:#F3F3F3;
+	border:1px solid #EBEBEB;
+	text-align:right;
+}
+.company-detail-div-txt {
+	width:678px;
+	float:left;
+	padding:10px 15px 10px 15px;
+	background-color:#F3F3F3;
+	border:1px solid #EBEBEB;
+	font-size:12px;
+	line-height:20px;
+	margin-top:10px;
+}
+.company-detail-div-txt img {
+	border:1px solid #EBEBEB;
+	padding:4px;
+	background-color:#FFF;
+	margin-right:5px;
+}
+.company-detail-div-members {
+	width:405px;
+	float:left;
+	margin-right:20px;
+	padding:10px 0 10px 0;
+}
+.company-detail-div-projects {
+	width:251px;
+	float:left;
+	padding:10px 15px 10px 15px;
+}
+.company-detail-div-members h3 {
+	font-size:13px;
+	text-transform:uppercase;
+	color:#464646;
+	border-bottom:1px solid #CCCCCC;
+	padding-bottom:5px;
+}
+.company-detail-div-projects h3 {
+	font-size:13px;
+	text-transform:uppercase;
+	color:#464646;
+	border-bottom:1px solid #CCCCCC;
+	padding-bottom:5px;
+}
+.company-detail-div-members ul {
+	float:left;
+	width:100%;
+}
+.company-detail-div-members li {
+	float:left;
+	width:130px;
+	list-style:none;
+	padding:0px;
+	margin:15px 7px 0 0;
+	line-height:18px;
+}
+.company-detail-div-members li.last {
+	float:left;
+	width:130px;
+	list-style:none;
+	padding:0px;
+	margin:15px 0px 0 0;
+	line-height:18px;
+}
+.company-detail-div-members li img {
+	float:left;
+	padding:3px;
+	border:1px solid #EBEBEB;
+	margin:0px 5px 5px 0;
+}
+.company-detail-div-members li p { text-align:center; }
+.company-detail-div-projects ul {
+	float:left;
+	width:221px;
+	background-color:#f7f7f7;
+	padding:10px 15px 10px 15px;
+	border-bottom:1px solid #CCC;
+}
+.company-detail-div-projects li {
+	float:left;
+	width:221px;
+	list-style:none;
+	padding:0px;
+	margin:6px 6px 0 0;
+	padding-bottom:5px;
+	line-height:18px;
+	border-bottom:1px solid #EBEBEB;
+}
+.company-detail-div-projects li a {
+	padding-left:15px;
+	background-attachment: scroll;
+	background-image: url(../images/icon.png);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+.company-detail-div-projects li a:hover { }
+.links a {
+	text-decoration:none;
+	border:1px #EBEBEB solid;
+	padding:4px 18px 2px 10px;
+	color:#464646;
+	background-attachment: scroll;
+	background-image: url(../images/links-arrow.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-color:#f3f3f3;
+	float:left;
+	margin-top:15px;
+}
+.links a:hover {
+	color:#005aae;
+	text-decoration:none;
+	float:left;
+}
+/* Company Details */
+
+
+/* make the LI display inline */
+		/* it's position relative so that position absolute */
+		/* can be used in submenu */
+		#nav li {
+	float:right;
+	display:block;
+	position:relative;
+	z-index:500;
+	margin:0 0px;
+	border-left: 1px solid #DADADA;
+	padding-left:10px;
+}
+/* this is the parent menu */
+		#nav li a {
+	display:block;
+	padding:0px 5px 0 15px;
+	margin:8px 0 10px 0;
+	text-decoration:none;
+	color:#005aae;
+	text-align:right;
+	background-attachment: scroll;
+	background-image: url(../down.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+#nav li a:hover { color:#464646; }
+/* you can make a different style for default selected value */
+		#nav a.selected { color:#f00; }
+/* submenu, it's hidden by default */
+		#nav ul {
+	position:absolute;
+	left:0;
+	display:none;
+	margin:0px 0 0 0;
+	padding:0;
+	list-style:none;
+	border:1px solid #CCC;
+	background-color:#FFF;
+}
+#nav ul li {
+	width:148px;
+	float:left;
+	border-bottom:1px solid #CCC;
+	border-left:none;
+}
+/* display block will make the link fill the whole area of LI */
+		#nav ul a {
+	display:block;
+	padding:5px;
+	color:#666;
+	text-align:left;
+	color:#005aae;
+	background:none;
+	margin:0px;
+}
+#nav ul a:hover {
+	text-decoration:underline;
+	color:#464646;
+	text-decoration:none;
+}
+/* fix ie6 small issue */
+		/* we should always avoid using hack like this */
+		/* should put it into separate file : ) */
+		*html #nav ul { margin:0 0 0 -2px; }
+/* Dropdown menu css */
+
+/* Dropdown menu css */
+	/* remove the list style */
+	#hide-report {
+	margin:0;
+	padding:0;
+	list-style:none;
+	float:right;
+}
+/* make the LI display inline */
+		/* it's position relative so that position absolute */
+		/* can be used in submenu */
+		#hide-report li {
+	float:right;
+	display:block;
+	position:relative;
+	z-index:500;
+	margin:0px;
+}
+/* this is the parent menu */
+		#hide-report li a {
+	display:block;
+	padding:0px 10px 0px 0px;
+	margin:0px 0 10px 0;
+	text-align:right;
+}
+#hide-report li a:hover { color:#464646; }
+/* you can make a different style for default selected value */
+		#hide-report a.selected { color:#f00; }
+/* submenu, it's hidden by default */
+		#hide-report ul {
+	position:absolute;
+	left:0;
+	display:none;
+	margin:0;
+	padding:0;
+	list-style:none;
+	border:1px solid #CCC;
+	background-color:#FFF;
+}
+#hide-report ul li {
+	width:60px;
+	float:right;
+	border-bottom:1px solid #CCC;
+	border-left:none;
+}
+/* display block will make the link fill the whole area of LI */
+		#hide-report ul a {
+	display:block;
+	padding:5px;
+	color:#666;
+	text-align:left;
+	color:#005aae;
+	background:none;
+	margin:0px;
+}
+#hide-report ul a:hover {
+	text-decoration:underline;
+	color:#464646;
+	text-decoration:none;
+}
+/* fix ie6 small issue */
+		/* we should always avoid using hack like this */
+		/* should put it into separate file : ) */
+		*html #hide-report ul { margin:0 0 0 -2px; }
+/* Dropdown menu css */
+
+.dropdown dd, .dropdown dt, .dropdown ul {
+	margin:0px;
+	padding:0px;
+}
+.dropdown dd { position:relative; }
+.dropdown a, .dropdown a:visited {
+	color:#005aae;
+	text-decoration:none;
+	outline:none;
+}
+.dropdown a:hover { color:#464646; }
+.dropdown dt a:hover { color:#464646; }
+.dropdown dt a {
+	background:#CCC url(../images/arrow.png) no-repeat scroll right center;
+	display:block;
+	width:106px;
+	height:17px;
+	padding:5px 5px 5px 10px;
+}
+.dropdown dt a span {
+	cursor:pointer;
+	display:block;
+}
+.dropdown dd ul {
+	background:#EBEBEB none repeat scroll 0 0;
+	border:1px solid #CCCCCC;
+	color:#C5C0B0;
+	display:none;
+	left:0px;
+	padding:5px 0px;
+	position:absolute;
+	top:2px;
+	width:auto;
+	min-width:118px;
+	list-style:none;
+}
+.dropdown span.value { display:none; }
+.dropdown dd ul li a {
+	padding:5px;
+	display:block;
+}
+.dropdown dd ul li a:hover {
+	background-color:#CCC;
+	color:#464646;
+}
+.search .textbox {
+	border:1px solid #CCC;
+	background-color:#FFF;
+	width:235px;
+	height:15px;
+	padding:5px 10px;
+	margin-left:10px;
+	background-attachment: scroll;
+	background-image: url(../images/Search.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+	float:right;
+}

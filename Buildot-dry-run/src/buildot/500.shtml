@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+
+<link rel="stylesheet" type="text/css"href="css/libyaclick.css" />
+<link rel="stylesheet" type="text/css"href="css/nav.css" />
+
+<style>
+*{
+text-decoration:none;
+}
+body{
+margin-top: 75px;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+a:link{
+color: #c10000;
+}
+a:visited{
+color: #c10000;
+}
+a:hover{
+color: #05496c;
+}
+
+
+</style>
+
+
+</head>
+<body topmargin="50" leftmargin="0" rightmargin="0" bottommargin="0">
+
+<div align="center">
+	<table border="0" cellpadding="0" cellspacing="0" width="70%">
+		<tr>
+			<td width="157">
+				<p align="left"></td>
+			<td>&nbsp;</td>
+			<td width="202">&nbsp;</td>
+		</tr>
+	</table>
+</div>
+
+<div align="center">
+<table cellpadding="3" cellspacing="0" width="70%" id="table10" style="-moz-border-radius: 5px; -webkit-border-radius: 5px;-khtml-border-radius: 5px;border-radius: 5px; border-style: solid; border-width: 1px; " bordercolor="#05496c" background="images/watermark_bg.jpg"><tr>
+	<td>&nbsp;<div align="center">
+		<table border="0" cellpadding="0" cellspacing="0" width="95%" id="table11">
+			<tr>
+				<td colspan="2">&nbsp;</td>
+				<td width="7%" style="border-left: 1px solid #D5E8F4; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px">&nbsp;</td>
+				<td width="56%">&nbsp;</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<div style="float:left; font-size:10em; color:#66baff">
+					<span style="text-align: center; text-shadow: 3px 3px 1px #000080;">500</span><font size="4" color="#c10000">Error</font></div></td>
+				<td width="7%" style="border-left: 1px solid #D5E8F4; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px">&nbsp;</td>
+				<td width="56%">
+					<p><img border="0" src="images/logo_dark.png" /></p>
+					<p>Sorry, there was an Internal Server Error<br />
+					The page you requested was not found.<br />
+					<p>Please try visiting the <a href="index.php">home page</a></p>
+					<p style="margin-top: 0; margin-bottom: 0">&nbsp;</p></td>
+			</tr>
+			<tr>
+				<td width="21%" valign="top">
+				<p align="center">
+				<font size="4">Internal server error</font></td>
+				<td width="16%" valign="top">&nbsp;
+				</td>
+				<td width="7%" style="border-left: 1px solid #D5E8F4; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px">&nbsp;</td>
+				<td width="56%">&nbsp;
+				</td>
+			</tr>
+			</table>
+	</div>
+	<p style="margin-top: 0; margin-bottom: 0">&nbsp;</td></tr></table></div>
+</body>
+</html>

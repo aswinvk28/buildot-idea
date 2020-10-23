@@ -1,0 +1,13 @@
+#ErrorDocument 404 /404.php
+ErrorDocument 404 /404.shtml
+ErrorDocument 403 /403.shtml
+ErrorDocument 500 /500.shtml
+
+RewriteEngine on
+RewriteRule ^reset.html/([0-9\/]+) index.php?view=reset&code=$1 [L]
+
+RewriteRule ^index.html index.php [L]
+RewriteRule (.*)\.html index.php?view=$1 [L]
+
+
+RewriteRule captcha.jpg lib/CaptchaSecurityImages.php
